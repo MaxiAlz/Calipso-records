@@ -4,7 +4,7 @@ import { ServiciosCard } from '../Cards';
 
 const ServicesSection = () => {
   return (
-    <section className='py-16 bg-secondary/10 dark:bg-gray-900'>
+    <section className='py-5 bg-secondary/10 dark:bg-gray-900'>
       <div className='container mx-auto px-4'>
         <h2 className='text-3xl font-bold text-center mb-4'>
           Nuestros Servicios

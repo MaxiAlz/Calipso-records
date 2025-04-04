@@ -15,6 +15,7 @@ const HomeView = () => {
       <div className='flex flex-col flex-1'>
         <HearoSection />
         <ServicesSection />
+        <div className='h-[1px] w-full bg-primary my-6' />
         <ProductsSection />
         <AboutSection />
         <PaylistSpotify />

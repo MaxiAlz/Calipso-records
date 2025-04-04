@@ -2,22 +2,29 @@ const TestimoniosSection = () => {
   const testimonials = [
     {
       quote:
-        'El mejor estudio de grabación en el que he estado. Profesionales, con excelente equipo y un oído impecable.',
-      author: 'Carlos Rodríguez',
-      role: 'Guitarrista, Banda Acústica',
+        'Me senti muy comoda trabajando con el equipo de Calipso. Me ayudaron a encontrar el sonido que buscaba y a darle vida a mis ideas.',
+      author: 'Eli Rodriguez',
+      role: 'Cantautora y compositora',
     },
     {
       quote:
-        'Gracias a su servicio de mezcla y masterización mi álbum alcanzó un nivel profesional que no esperaba.',
-      author: 'Laura Martínez',
-      role: 'Cantautora',
+        'Gracias a su servicio de mezcla y masterización, nuestra cancion mejoro notamblemente luego de este proceso.',
+      author: 'Gonzalo quinteros',
+      role: 'Musico y productor',
     },
     {
       quote:
-        'Los productos que adquirí funcionan perfectamente y recibí asesoramiento técnico excelente.',
-      author: 'Miguel Sánchez',
-      role: 'Productor independiente',
+        'Mis presentaciones en vivo mejoraron un monton con los In Ears que me recomendaron. Sonido y comodidad inigualable.',
+      author: 'Matias Calderon',
+      role: 'Cantante en Brujas del Valle',
     },
+    // {
+    //   quote:
+    //     'Grabamos percuciones en el estudio con maxi en los controles, quedamos muy conformes con el resultado y la atencion.',
+    //   author: 'David Quiroga',
+    //   role: 'Percusionista y sessionista',
+    // },
+   
   ];
 
   return (

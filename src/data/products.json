@@ -3,7 +3,7 @@
     "id": 1,
     "stock": 3,
     "titulo": "KZ ZSN Pro 2da Gen",
-    "subtitulo": "Auriculares IEM profesional in-ear con calidad Hi-Fi",
+    "subtitulo": "Auriculares IEM con calidad Hi-Fi",
     "descripcion": "<h2>🔥 Una Fusión Perfecta de Valor, Calidad Superior y Aislamiento de Ruido Excepcional</h2> <p>El KZ ZSN PRO 2 es el último monitor in-ear de KZ, diseñado para músicos, cantantes, DJs y audiófilos que buscan un sonido de alta calidad sin gastar una fortuna. Con una combinación de precio accesible, excelente calidad de construcción y aislamiento de ruido, este modelo se destaca en el mundo de los monitores in-ear profesionales.</p> <img src=\"https://cdn.shopify.com/s/files/1/0680/4616/0168/files/kz-zsn-pro-2-01.webp?v=1718732295\" alt=\"KZ ZSN PRO 2 - Auriculares In-Ear Híbridos\" class=\"product-image\"/> <h3>🎵 Características Claves</h3> <ul> <li><strong>✅ Calidad Profesional:</strong> Fabricado con precisión para cumplir con los más altos estándares de la industria.</li> <li><strong>✅ Recomendado por Profesionales:</strong> Utilizado y recomendado por músicos, vocalistas, DJs y entusiastas del audio.</li> <li><strong>✅ Cable Desmontable de Plata:</strong> Permite un mantenimiento sencillo y opciones de personalización.</li> <li><strong>✅ Audio Cristalino:</strong> Sonido nítido y bien definido en todas las frecuencias.</li> <li><strong>✅ Graves Profundos e Impactantes:</strong> Bajos ricos y potentes sin opacar medios y agudos.</li> <li><strong>✅ Tecnología Híbrida de Doble Driver:</strong> Driver de armadura balanceada y driver dinámico de 10mm.</li> </ul> <h3>🎧 Monitoreo In-Ear Esencial</h3> <p>Para los profesionales que dependen de un sonido preciso en el escenario, el KZ ZSN PRO 2 proporciona una fidelidad de audio inigualable. Sus avanzados drivers aseguran una reproducción precisa de cada nota, mejorando el rendimiento musical y auditivo.</p> <h3>💰 Calidad Superior a un Precio Inmejorable</h3> <p>Altamente elogiado en diversas reseñas en línea, el KZ ZSN PRO 2 ofrece una construcción premium y un rendimiento de sonido superior a un precio asequible. Destaca como uno de los mejores monitores in-ear en relación calidad-precio, con características que suelen encontrarse en modelos mucho más costosos.</p> <h3>🎼 Versatilidad Total</h3> <p>Ya sea que estés tocando en vivo, grabando en estudio, asistiendo a servicios religiosos o simplemente disfrutando de música a diario, el KZ ZSN PRO 2 se adapta perfectamente a cualquier entorno.</p> <h3>📊 Especificaciones Técnicas</h3> <ul> <li><strong>🔹 Modelo:</strong> KZ ZSN PRO 2</li> <li><strong>🔹 Drivers:</strong> 1x Armadura Balanceada + 1x Driver Dinámico de 10mm</li> <li><strong>🔹 Tipo:</strong> Monitor In-Ear</li> <li><strong>🔹 Sensibilidad:</strong> 112 dB</li> <li><strong>🔹 Impedancia:</strong> 24Ω</li> <li><strong>🔹 Cable Reemplazable:</strong> Sí</li> <li><strong>🔹 Dimensiones:</strong> 9.6 x 7.3 x 3.3 cm</li> <li><strong>🔹 Peso:</strong> 60 g</li> </ul> <h3>📦 Contenido del Paquete</h3> <ul> <li>✔ 1x Par de auriculares KZ ZSN PRO 2</li> <li>✔ 1x Cable desmontable de plata</li> <li>✔ 3x Pares de almohadillas de silicona (Pequeño, Mediano, Grande)</li> <li>✔ 1x Manual de usuario</li> </ul> <h3>✅ ¿Por qué elegir KZ ZSN PRO 2?</h3> <ul> <li>✔ <strong>Tecnología Híbrida Avanzada:</strong> Combinación de drivers de armadura balanceada y dinámicos para un sonido potente y equilibrado.</li> <li>✔ <strong>Afinación Acústica Superior:</strong> Curva de respuesta de frecuencia optimizada para una experiencia auditiva detallada y precisa.</li> <li>✔ <strong>Diseño Duradero y Elegante:</strong> Estética moderna con materiales resistentes, ideales para el uso profesional y diario.</li> <li>✔ <strong>Circuito de Crossover Innovador:</strong> Mejora la respuesta de frecuencia, ofreciendo un sonido más preciso y detallado.</li> </ul> <h2>🔥 Consigue el KZ ZSN PRO 2 y lleva tu experiencia musical a otro nivel.</h2>",
     "precio": 72800,
     "destacado": true,
@@ -23,13 +23,14 @@
     "stock": 2,
     "titulo": "KZ EDX PRO",
     "subtitulo": "Auriculares IEM con Driver Dinámico",
-    "descripcion": "asdasd",
+    "descripcion": "<p><strong>KZ EDX PRO</strong> son auriculares in-ear diseñados para ofrecer una experiencia de audio superior a un precio accesible. Equipados con un potente driver dinámico de 10 mm, proporcionan <strong>bajos profundos</strong>, <strong>medios claros</strong> y <strong>agudos definidos</strong>, ideales tanto para escuchar música como para monitoreo profesional.</p><p>Su <strong>diseño ergonómico</strong> asegura comodidad durante horas de uso, mientras que el <em>cable desmontable</em> brinda practicidad y durabilidad. Con acabados modernos como <span >Dorado</span> y <span >Transparente</span>, combinan estilo y rendimiento para usuarios exigentes.</p>",
     "precio": 29000,
     "destacado": false,
     "agotado": false,
     "colores_disponibles": [
-      { "nombre": "Dorado", "codigo_hex": "#FFD700" },
-      { "nombre": "Transparente", "codigo_hex": "#E5E5E5" }
+      { "nombre": "Transparent / Gris", "codigo_hex": "#989f9f" },
+      { "nombre": "Negro y Dorado", "codigo_hex": "#393939" },
+      { "nombre": "Cyan/Verde", "codigo_hex": "#4e908b" }
     ],
     "imagenes": [
       "https://kzmusicstore.com/cdn/shop/files/kz-edx-pro-dynamic-driver-iem-earphones-kz-music-store-2.webp?v=1728491896&width=600",
@@ -39,13 +40,14 @@
   },
   {
     "id": 3,
+
     "stock": 0,
     "titulo": "Estuche Premium KZ Tela",
     "subtitulo": "Protección ligera para tus auriculares",
     "descripcion": "✅ <strong>Material suave y resistente</strong><br>✅ **Cierre seguro con cremallera**<br>✅ Compacto y fácil de transportar",
     "precio": 9900,
     "destacado": false,
-    "agotado": false,
+    "agotado": true,
     "colores_disponibles": [{ "nombre": "Negro", "codigo_hex": "#000000" }],
     "imagenes": [
       "https://kzmusicstore.com/cdn/shop/products/kz-premium-case-kz-music-store-3.jpg?v=1728491964&width=800",
@@ -60,7 +62,7 @@
     "descripcion": "<strong>Protege tus auriculares de golpes y caídas</strong><br><br>🌟 Interior acolchonado<br>🌟 **Cierre hermético** con cremallera<br>🌟 **Espacio extra** para cables y adaptadores",
     "precio": 14500,
     "destacado": true,
-    "agotado": false,
+    "agotado": true,
     "colores_disponibles": [{ "nombre": "Negro", "codigo_hex": "#000000" }],
     "imagenes": [
       "https://http2.mlstatic.com/D_871457-CBT49860935138_052022-C.jpg",

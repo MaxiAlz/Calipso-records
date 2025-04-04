@@ -3,7 +3,7 @@ import imgCalipsoPortada from '../../assets/images/CALIP-3.jpg';
 
 const HearoSection = () => {
   return (
-    <section className='w-full relative bg-primary text-secondary py-5 md:py-30 '>
+    <section className='w-full relative bg-primary text-secondary pt-20 pb-10 md:py-30 '>
       <div className='container mx-auto px-4 flex flex-col-reverse md:flex-row justify-evenly items-center gap-6 md:px-20'>
         <div className='text-center md:text-left'>
           <h1 className='max-w-2xl mb-4 text-3xl font-extrabold tracking-tight text-secondary md:text-5xl xl:text-6xl dark:text-white'>

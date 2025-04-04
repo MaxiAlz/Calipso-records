@@ -11,14 +11,14 @@ export const servicios = [
       <p class="text-lg font-semibold">En nuestro estudio, grabamos todo tipo de instrumentos y voces con una calidad excepcional.</p>
       <h3 class="text-md font-bold mt-4">📌 Características del servicio:</h3>
       <ul class="list-disc pl-5 mt-2">
-        <li>Contamos con una <strong>Sala Live</strong> ideal para la grabación de baterías, guitarras y voces en vivo.</li>
-        <li>Disponemos de una <strong>Sala ISO</strong> completamente aislada, perfecta para voces, podcasts, locuciones e instrumentos acústicos.</li>
-        <li>Usamos equipos de última generación para garantizar una captura de audio clara y profesional.</li>
+        <li>Contamos con una <strong>Sala acondicionada acusticamente</strong> ideal para la grabación de instrumentos y vocales</li>
+        <li>Disponemos de una <strong>Equipamiento optimo </strong> especial para cada ocacion</li>
+        <li>Buscamos ser un equipo dedicado a solucionar tus problemas, ayudarte en tu proceso creativo y que te sientas como durante todo el proceso.</li>
       </ul>
       <h3 class="text-md font-bold mt-4">🎵 ¿Qué estilos trabajamos?</h3>
-      <p>Nos adaptamos a las necesidades de cada artista. Puedes elegir con qué técnico trabajar y recibir apoyo de productores y músicos sesionistas.</p>
+      <p>Nos adaptamos a las necesidades de cada artista. Siempre estamos dispuestos a escucharte, recibir apoyo de productores y músicos sesionistas para tus sesiones de grabacion.</p>
       <h3 class="text-md font-bold mt-4">💰 Costos</h3>
-      <p>Presupuestamos según tu idea y requerimientos. Contáctanos sin compromiso en la sección de contacto de nuestra web.</p>
+      <p>Presupuestamos según tu idea y requerimientos. Contáctanos sin compromiso para charlar con nosotros y crear un plan unico para vos</p>
     `,
     icono: <FaMicrophoneLines className='h-10 w-10' />,
     imagen:
@@ -32,15 +32,14 @@ export const servicios = [
       <p class="text-lg font-semibold">Tu música con un sonido balanceado y profesional, lista para impactar a tu audiencia.</p>
       <h3 class="text-md font-bold mt-4">📌 Características del servicio:</h3>
       <ul class="list-disc pl-5 mt-2">
-        <li>Mezcla híbrida combinando <strong>hardware analógico</strong> y <strong>plugins digitales</strong> de alta calidad (UAD, Waves, FabFilter, Izotope, etc.).</li>
-        <li>Trabajo detallado en ecualización, compresión, paneo y efectos para una mezcla limpia y dinámica.</li>
+        <li>Mezcla <strong>digital</strong> y <strong>especial para tu cancion</strong> </li>
+        <li>Trabajamos detalladamente en cada seccion la produccion, buscamos el balance perfecto y aplicamos los procesos necesarios para cada ocacion.</li>
         <li>Tu pago queda congelado hasta que estés 100% conforme con el resultado final.</li>
       </ul>
       <h3 class="text-md font-bold mt-4">🔍 ¿Cómo funciona?</h3>
       <ol class="list-decimal pl-5 mt-2">
         <li>Nos contactas para definir los detalles del trabajo.</li>
-        <li>Eliges el ingeniero de mezcla, o nosotros lo asignamos según tu estilo musical.</li>
-        <li>Subes tus pistas en formato WAV a través de Wetransfer.</li>
+        <li>Nos envias tus tracks o multipista.</li>
         <li>Recibes la mezcla en el plazo acordado.</li>
         <li>Incluye revisiones hasta que estés satisfecho.</li>
       </ol>
