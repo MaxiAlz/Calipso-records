@@ -83,7 +83,7 @@ const ProductDetails = () => {
                 color='success'
                 href={wspURL}
                 target='_blank'
-                className='w-3/4  mt-5'
+                className='sm:w-3/4 w-full mt-5'
               >
                 Comprar
               </Button>

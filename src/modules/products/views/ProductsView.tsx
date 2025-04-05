@@ -13,7 +13,7 @@ const ProductsView = () => {
         <div className='absolute inset-0 bg-primary bg-opacity-70'></div>
         <div className='relative flex items-center justify-center h-full flex-col text-white'>
           <h1 className='text-3xl font-bold'>Nuestros Productos</h1>
-          <p className='mt-4  text-white'>
+          <p className='mt-4 mx-2 text-center  text-white'>
             Estamos trabajando para ofrecerte una experiencia de compra
             excepcional.
           </p>
@@ -22,10 +22,10 @@ const ProductsView = () => {
 
       <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 my-5 mx-8'>
         {products.map((product) => (
-          <ProductCard {...product} />
+          <ProductCard {...product} key={product.id} />
         ))}
       </div>
-      <section className='my-10 px-4 py-8 flex flex-col justify-center items-center'>
+      <section className='my-10 px-4 py-8 flex flex-col justify-center items-center text-center'>
         <h1 className='text-2xl'>
           Proximamente mas productos en la tienda redes
         </h1>
@@ -36,9 +36,7 @@ const ProductsView = () => {
           visitar nuestro sitio web y descubrir todo lo que tenemos para
           ofrecerte.
         </p>
-        <p className='mt-4  text-primary'>
-          ¡Gracias por tu paciencia y apoyo!
-        </p>
+        <p className='mt-4  text-primary'>¡Gracias por tu paciencia y apoyo!</p>
       </section>
     </HomeLayout>
   );
