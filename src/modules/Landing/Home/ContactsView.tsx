@@ -46,7 +46,7 @@ const ContactsView = () => {
           </a>
 
           <a
-            href='mailto:correo@dominio.com'
+            href='mailto:maxialz99@hotmail.com'
             className='flex items-center gap-3 bg-yellow-500 hover:bg-yellow-600 text-white font-semibold py-3 px-5 rounded-2xl transition-all'
           >
             <FiMail className='text-xl' />
