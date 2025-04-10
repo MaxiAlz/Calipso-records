@@ -26,7 +26,7 @@
     "descripcion": "<p><strong>KZ EDX PRO</strong> son auriculares in-ear diseñados para ofrecer una experiencia de audio superior a un precio accesible. Equipados con un potente driver dinámico de 10 mm, proporcionan <strong>bajos profundos</strong>, <strong>medios claros</strong> y <strong>agudos definidos</strong>, ideales tanto para escuchar música como para monitoreo profesional.</p><p>Su <strong>diseño ergonómico</strong> asegura comodidad durante horas de uso, mientras que el <em>cable desmontable</em> brinda practicidad y durabilidad. Con acabados modernos como <span >Dorado</span> y <span >Transparente</span>, combinan estilo y rendimiento para usuarios exigentes.</p>",
     "precio": 29000,
     "destacado": false,
-    "agotado": false,
+    "agotado": true,
     "colores_disponibles": [
       { "nombre": "Transparent / Gris", "codigo_hex": "#989f9f" },
       { "nombre": "Negro y Dorado", "codigo_hex": "#393939" },

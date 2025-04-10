@@ -2,14 +2,14 @@ import imgCalipsoUno from '../../assets/images/img_tiki.jpg';
 
 const AboutSection = () => {
   return (
-    <section className='py-16 bg-primary  my-5 dark:bg-gray-900'>
+    <section className='py-16 bg-primary  my-10 dark:bg-gray-900'>
       <div className='container mx-auto px-4'>
-        <div className='flex flex-col lg:flex-row items-center gap-12'>
-          <div className='sm:w-1/2 h-500'>
+        <div className='flex flex-col lg:flex-row items-center gap-4'>
+          <div className='flex justify-center items-center h-full'>
             <img
               src={imgCalipsoUno}
               alt='Imagen persona grabando'
-              className='w-2/3 object-cover '
+              className='w-2/3 md:w-full object-cover '
             />
           </div>
 
