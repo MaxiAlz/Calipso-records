@@ -79,18 +79,21 @@ export const servicios = [
     titulo: 'Live Sessions',
     subtitulo: 'Graba y filma tu presentación en vivo',
     descripcion: `
-      <p class="text-lg font-semibold">Captura la esencia de tu música con una sesión en vivo de calidad profesional.</p>
-      <ul class="list-disc pl-5 mt-2">
-        <li>Filmación en alta definición con múltiples cámaras.</li>
-        <li>Grabación de audio en vivo con mezcla profesional.</li>
-        <li>Edición y corrección de color para una estética cinematográfica.</li>
-      </ul>
-      <h3 class="text-md font-bold mt-4">💰 Costos</h3>
-      <p>Contáctanos para personalizar tu sesión en vivo.</p>
-    `,
+    <p class="text-lg font-semibold">Captura la esencia de tu música con una sesión en vivo de calidad profesional.</p>
+    <ul class="list-disc pl-5 mt-2">
+      <li>Filmación en alta definición con múltiples cámaras.</li>
+      <li>Grabación de audio en vivo con mezcla profesional.</li>
+      <li>Edición y corrección de color para una estética cinematográfica.</li>
+    </ul>
+    <h3 class="text-md font-bold mt-4">💰 Costos</h3>
+    <p>Contáctanos para personalizar tu sesión en vivo.</p>
+    <h3 class="text-md font-bold mt-6">🎬 Ejemplo de sesión</h3>
+    <div style="position:relative; padding-bottom:56.25%; height:0; overflow:hidden; max-width:100%; margin-top:1rem; border-radius:0.5rem;">
+      <iframe src="https://www.youtube.com/embed/iEfsbfy2jU4" title="ENSAYO SESION - NORTE IMPASIBLE - [ Calipso Records ]" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="position:absolute; top:0; left:0; width:100%; height:100%;"></iframe>
+    </div>
+    <p class="text-sm text-gray-500 dark:text-gray-400 mt-2">Filmado y producido en Calipso Records.</p>
+  `,
     icono: <MdVideocam className='h-10 w-10' />,
-    imagen:
-      'https://images.pexels.com/photos/7502173/pexels-photo-7502173.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
   },
   {
     id: 5,

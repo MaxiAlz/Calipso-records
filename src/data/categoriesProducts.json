@@ -1,0 +1,24 @@
+[
+  {
+    "id": 1,
+    "nombre": "Auriculares",
+    "slug": "auriculares"
+  },
+  {
+    "id": 2,
+    "nombre": "Monitoreo",
+    "slug": "monitoreo"
+  },
+  {
+    "id": 3,
+    "nombre": "Accesorios",
+    "slug": "accesorios"
+  },
+  {
+    "id": 5,
+    "nombre": "Pedaleras Multiefecto",
+    "slug": "pedaleras-multiefecto"
+  },
+  { "id": 6, "nombre": "Pedales para Guitarra", "slug": "pedales-guitarra" },
+  { "id": 7, "nombre": "Pedales para Bajo", "slug": "pedales-bajo" }
+]

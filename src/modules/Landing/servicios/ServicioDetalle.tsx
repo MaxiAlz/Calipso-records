@@ -47,13 +47,15 @@ const ServicioDetalle = () => {
             dangerouslySetInnerHTML={{ __html: servicio.descripcion }}
           />
           {/* Imagen del servicio */}
-          <div className='flex justify-center mb-6'>
-            <img
-              src={servicio.imagen}
-              alt={servicio.titulo}
-              className='rounded-lg shadow-lg  sm:w-1/2'
-            />
-          </div>
+          {servicio.imagen && (
+            <div className='flex justify-center mb-6'>
+              <img
+                src={servicio.imagen}
+                alt={servicio.titulo}
+                className='rounded-lg shadow-lg  sm:w-1/2'
+              />
+            </div>
+          )}
         </div>
         {/* Botón de WhatsApp */}
         <div className='mt-5 flex justify-center'>

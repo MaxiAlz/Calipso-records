@@ -1,6 +1,7 @@
 import { useParams } from 'react-router';
 import { HomeLayout } from '../../../layouts/HomeLayout';
 import products from '../../../data/products.json';
+import categories from '../../../data/categoriesProducts.json';
 import { Badge, Button, Carousel, Tooltip } from 'flowbite-react';
 
 const ProductDetails = () => {
@@ -22,6 +23,10 @@ const ProductDetails = () => {
 
   const wspMessage = `Hola! Estoy interesado en el producto "${product.titulo}". ¿Está disponible?`;
   const wspURL = `https://wa.me/5493834217703?text=${encodeURIComponent(wspMessage)}`;
+
+  const productCategories = categories.filter((cat) =>
+    product.categoria_ids.includes(cat.id)
+  );
 
   return (
     <HomeLayout pageTitle={product.titulo}>
@@ -55,6 +60,20 @@ const ProductDetails = () => {
               {product.titulo}
             </h1>
             <h2 className='text-xl text-gray-600'>{product.subtitulo}</h2>
+
+            {/* Categorías */}
+            <div className='flex flex-wrap gap-2'>
+              {productCategories.map((category) => (
+                <Badge
+                  key={category.id}
+                  color='primary'
+                  className='bg-primary/10 text-primary'
+                >
+                  {category.nombre}
+                </Badge>
+              ))}
+            </div>
+
             <div className='flex items-center gap-2'>
               <p className='text-2xl font-bold text-primary'>
                 ${product.precio.toLocaleString()}
@@ -68,12 +87,20 @@ const ProductDetails = () => {
             <div className='flex items-center gap-2'>
               <span className='font-semibold'>Colores:</span>
               {product.colores_disponibles.map((color, idx) => (
-                <Tooltip content={color.nombre} key={idx}>
+                <Tooltip
+                  content={`${color.nombre}${color.disponible === false ? ' (no disponible)' : ''}`}
+                  key={idx}
+                >
                   <div
-                    title={color.nombre}
-                    className='w-6 h-6 rounded-full border border-gray-300'
-                    style={{ backgroundColor: color.codigo_hex }}
-                  />
+                    className='flex items-center gap-1'
+                    style={{ opacity: color.disponible !== false ? 1 : 0.5 }}
+                  >
+                    <div
+                      title={color.nombre}
+                      className='w-6 h-6 rounded-full border border-gray-300'
+                      style={{ backgroundColor: color.codigo_hex }}
+                    />
+                  </div>
                 </Tooltip>
               ))}
             </div>

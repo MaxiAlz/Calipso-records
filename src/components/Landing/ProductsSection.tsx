@@ -13,10 +13,12 @@ const ProductsSection = () => {
           Equipamiento profesional para músicos y productores
         </p>
 
-        <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8'>
-          {products.map((product) => (
-            <ProductCard {...product} key={product.id}/>
-          ))}
+        <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8'>
+          {products
+            .filter((product) => product.destacado)
+            .map((product) => (
+              <ProductCard {...product} key={product.id} />
+            ))}
         </div>
 
         <div className='text-center mt-12'>

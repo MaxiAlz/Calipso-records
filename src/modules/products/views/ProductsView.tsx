@@ -26,9 +26,7 @@ const ProductsView = () => {
         ))}
       </div>
       <section className='my-10 px-4 py-8 flex flex-col justify-center items-center text-center'>
-        <h1 className='text-2xl'>
-          Proximamente mas productos en la tienda redes
-        </h1>
+        <h1 className='text-2xl'>Proximamente mas productos en la tienda</h1>
 
         <p className='mt-4 text-center w-3/4 font-light'>
           En breve, podrás explorar una amplia gama de productos y realizar tus

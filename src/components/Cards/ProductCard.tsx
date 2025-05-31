@@ -1,4 +1,5 @@
 import { Link } from 'react-router';
+import categories from '../../data/categoriesProducts.json';
 
 interface ProductCardProps {
   id: number;
@@ -8,6 +9,7 @@ interface ProductCardProps {
   precio: number;
   stock: number;
   agotado?: boolean;
+  categoria_ids: number[];
 }
 
 const ProductCard = ({
@@ -18,6 +20,7 @@ const ProductCard = ({
   precio,
   stock,
   agotado,
+  categoria_ids,
 }: ProductCardProps) => {
   return (
     <div
@@ -49,9 +52,26 @@ const ProductCard = ({
         <h3 className='text-lg font-bold mb-2'>{titulo}</h3>
         <p className='mb-1'>{subtitulo}</p>
 
+        {/* Categorías */}
+        <div className='flex flex-wrap gap-1 mb-3'>
+          {categoria_ids.map((catId) => {
+            const categoria = categories.find((cat) => cat.id === catId);
+            return categoria ? (
+              <span
+                key={categoria.id}
+                className='bg-primary/10 text-primary text-xs px-2 py-1 rounded-full'
+              >
+                {categoria.nombre}
+              </span>
+            ) : null;
+          })}
+        </div>
+
         <div className='flex justify-between items-center'>
           <div>
-            <span className='text-xl font-bold text-primary'>${precio}</span>
+            <span className='text-xl font-bold text-primary'>
+              ${precio.toLocaleString('es-ES')}
+            </span>
           </div>
 
           {/* Enlace a detalles del producto */}
